@@ -87,7 +87,7 @@ export default function Contact() {
           <div className="card rounded-2xl p-8" style={{background:'rgba(255,255,255,0.02)'}}>
             <h3 className="font-display text-xl font-bold text-white mb-6">Send a Message</h3>
             <form onSubmit={submit} className="space-y-4">
-              <div className="grid grid-cols-2 gap-4">
+              <div className="grid lg:grid-cols-2 gap-4">
                 <div>
                   <label className="font-mono text-[9px] tracking-wider text-white/30 uppercase block mb-2">Name</label>
                   <input required value={form.name} onChange={e => setForm({...form, name: e.target.value})}
