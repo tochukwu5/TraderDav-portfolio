@@ -60,7 +60,7 @@ export default function About() {
           {/* Right — content */}
           <div>
             <div className="tag">About Me</div>
-            <h2 className="font-display text-3xl lg:text-5xl font-bold text-white mb-6 leading-tight">
+            <h2 className="font-display text-2xl lg:text-5xl font-bold text-white mb-6 leading-tight">
               Where Finance<br/>
               <span className="grad-text">Meets Engineering.</span>
             </h2>
