@@ -78,7 +78,7 @@ export default function Mentorship() {
         </div>
 
         {/* For trading mentors without websites */}
-        <div className="card rounded-2xl p-6 md:p-12" style={{background:'linear-gradient(135deg,rgba(16,185,129,0.06),rgba(6,182,212,0.03))',borderColor:'rgba(16,185,129,0.15)'}}>
+        <div className="card rounded-2xl p-5 md:p-12" style={{background:'linear-gradient(135deg,rgba(16,185,129,0.06),rgba(6,182,212,0.03))',borderColor:'rgba(16,185,129,0.15)'}}>
           <div className="grid md:grid-cols-2 gap-10 items-center">
             <div>
               <div className="tag">For Trading Mentors</div>
