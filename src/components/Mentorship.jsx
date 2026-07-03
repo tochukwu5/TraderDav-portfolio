@@ -101,7 +101,7 @@ export default function Mentorship() {
                 { t: 'First Impression Wins', d: 'Your website closes deals before you say a word. Without it, you lose students to anyone with a decent landing page.' },
                 { t: 'Booking on Autopilot', d: 'Students book themselves. No back-and-forth DMs  your calendar fills while you are trading.' },
                 { t: 'Built for Credibility', d: 'Testimonials, certifications, funded proof displayed to convert skeptical visitors into buyers.' },
-                { t: 'Delivered in 5 Days', d: 'From deposit to live site in less than a week. Fast, clean, and ready to make you money.' },
+                { t: 'Delivered in 4 Days', d: 'From deposit to live site in less than a week. Fast, clean, and ready to make you money.' },
               ].map((w, i) => (
                 <div key={i} className="card rounded-xl p-4">
                   <div className="text-emerald text-xs font-semibold mb-2">{w.t}</div>
