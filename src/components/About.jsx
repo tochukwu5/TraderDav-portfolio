@@ -60,7 +60,7 @@ export default function About() {
           {/* Right — content */}
           <div>
             <div className="tag">About Me</div>
-            <h2 className="font-display text-4xl lg:text-5xl font-bold text-white mb-6 leading-tight">
+            <h2 className="font-display text-3xl lg:text-5xl font-bold text-white mb-6 leading-tight">
               Where Finance<br/>
               <span className="grad-text">Meets Engineering.</span>
             </h2>
@@ -91,7 +91,7 @@ export default function About() {
             </div>
 
             {/* What I do grid */}
-            <div className="grid grid-cols-2 gap-3">
+            <div className="grid lg:grid-cols-2 gap-3">
               {WHAT_I_DO.map((w, i) => (
                 <div key={i} className="card card-hover p-4 rounded-xl">
                   <div className="text-xl mb-2" style={{color: w.color}}>{w.icon}</div>

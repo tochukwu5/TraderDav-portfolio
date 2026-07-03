@@ -78,11 +78,11 @@ export default function Mentorship() {
         </div>
 
         {/* For trading mentors without websites */}
-        <div className="card rounded-2xl p-8 md:p-12" style={{background:'linear-gradient(135deg,rgba(16,185,129,0.06),rgba(6,182,212,0.03))',borderColor:'rgba(16,185,129,0.15)'}}>
+        <div className="card rounded-2xl p-6 md:p-12" style={{background:'linear-gradient(135deg,rgba(16,185,129,0.06),rgba(6,182,212,0.03))',borderColor:'rgba(16,185,129,0.15)'}}>
           <div className="grid md:grid-cols-2 gap-10 items-center">
             <div>
               <div className="tag">For Trading Mentors</div>
-              <h3 className="font-display text-3xl font-bold text-white mb-4">
+              <h3 className="font-display text-2xl lg:text-3xl font-bold text-white mb-4">
                 Teaching Traders<br/>
                 <span className="grad-text-2">Without a Website?</span>
               </h3>
@@ -96,7 +96,7 @@ export default function Mentorship() {
                 Get Your Website →
               </a>
             </div>
-            <div className="grid grid-cols-2 gap-4">
+            <div className="grid lg:grid-cols-2 gap-4">
               {[
                 { t: 'First Impression Wins', d: 'Your website closes deals before you say a word. Without it, you lose students to anyone with a decent landing page.' },
                 { t: 'Booking on Autopilot', d: 'Students book themselves. No back-and-forth DMs  your calendar fills while you are trading.' },

@@ -25,15 +25,15 @@ export default function Hero() {
         <div className="max-w-3xl">
           {/* Status */}
           <div className="inline-flex items-center gap-2.5 mb-8 px-4 py-2 rounded-full border border-indigo/20 bg-indigo/5">
-            <span className="w-1.5 h-1.5 rounded-full bg-emerald pulse-dot"/>
-            <span className="font-mono text-[10px] tracking-[0.15em] text-indigo-light/80 uppercase">Available for new projects</span>
+            {/* <span className="w-1.5 h-1.5 rounded-full bg-emerald pulse-dot"/> */}
+            {/* <span className="font-mono text-[10px] tracking-[0.15em] text-indigo-light/80 uppercase">Available for new projects</span> */}
           </div>
 
           {/* Main headline */}
-          <h1 className="font-display font-bold text-white leading-[1.05] mb-6">
-            <span className="block text-5xl md:text-6xl lg:text-7xl mb-2">Finance</span>
-            <span className="block text-5xl md:text-6xl lg:text-7xl grad-text">Developer &</span>
-            <span className="block text-5xl md:text-6xl lg:text-7xl text-white/90">Trading Mentor.</span>
+          <h1 className="font-display font-bold text-white leading-[1.05] mb-6 mt-5">
+            <span className="block text-4xl md:text-6xl lg:text-7xl mb-2">Finance</span>
+            <span className="block text-4xl md:text-6xl lg:text-7xl grad-text">Developer &</span>
+            <span className="block text-4xl md:text-6xl lg:text-7xl text-white/90">Trading Mentor.</span>
           </h1>
 
           <p className="text-white/50 text-lg md:text-xl leading-relaxed mb-8 max-w-xl font-light">
@@ -44,17 +44,17 @@ export default function Hero() {
           {/* Tech badges */}
           <div className="flex flex-wrap gap-2 mb-10">
             {BADGES.map(b => (
-              <span key={b} className="font-mono text-[10px] tracking-wider px-3 py-1.5 rounded-full border border-white/10 bg-white/3 text-white/40">
+              <span key={b} className="font-mono text-[10px] tracking-wider px-2 py-1.5 rounded-full border border-white/10 bg-white/3 text-white/40">
                 {b}
               </span>
             ))}
           </div>
 
           {/* CTA */}
-          <div className="flex flex-wrap gap-4 mb-16">
+          <div className="flex gap-1 lg:gap-10 mb-16">
             <Link to="contact" smooth={true} duration={700} offset={-70} className="btn-primary cursor-pointer">
   Start a Project
-  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+  <svg width="10" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
 </Link>
             <a href="https://calendly.com/davtrader2/30min" target="_blank" rel="noreferrer" className="btn-secondary">
               Book Free Call
@@ -62,7 +62,7 @@ export default function Hero() {
           </div>
 
           {/* Stats row */}
-          <div className="flex flex-wrap gap-8 pt-8 border-t border-white/5">
+          <div className="flex flex-wrap gap-4 pt-8 border-t border-white/5">
             {STATS.map(s => (
               <div key={s.label}>
                 <div className="font-display text-2xl font-bold shimmer-text">{s.val}</div>

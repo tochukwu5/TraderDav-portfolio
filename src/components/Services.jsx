@@ -32,7 +32,7 @@ export default function Services() {
             Finance-First <span className="grad-text">Development</span>
           </h2>
           <p className="text-white/45 text-lg max-w-xl mx-auto">
-            Every service is purpose-built for financial markets. No generalist work — only specialist solutions.
+            Every service is purpose-built for financial markets. No generalist work only specialist solutions.
           </p>
         </div>
 
