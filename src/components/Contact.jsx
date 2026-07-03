@@ -43,7 +43,7 @@ export default function Contact() {
           {/* Left */}
           <div>
             <div className="tag">Contact</div>
-            <h2 className="font-display text-4xl lg:text-5xl font-bold text-white mb-6 leading-tight">
+            <h2 className="font-display text-3xl lg:text-5xl font-bold text-white mb-6 leading-tight">
               Let's Build<br/><span className="grad-text">Something Real.</span>
             </h2>
             <p className="text-white/45 text-lg leading-relaxed mb-10">
