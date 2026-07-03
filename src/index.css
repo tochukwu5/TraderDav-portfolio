@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Mono:wght@400;700&family=Syne:wght@400;600;700;800&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { background: #050810; color: #e2e8f0; font-family: 'Inter', sans-serif; overflow-x: hidden; }
+
+::-webkit-scrollbar { width: 3px; }
+::-webkit-scrollbar-track { background: #050810; }
+::-webkit-scrollbar-thumb { background: linear-gradient(180deg, #6366f1, #06b6d4); border-radius: 2px; }
+
+/* Color system — indigo/cyan/emerald accent on deep navy */
+.accent { color: #6366f1; }
+.accent2 { color: #06b6d4; }
+.accent3 { color: #10b981; }
+
+.grad-text { background: linear-gradient(135deg, #6366f1 0%, #06b6d4 50%, #10b981 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
+.grad-text-2 { background: linear-gradient(135deg, #06b6d4, #6366f1); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
+
+.card { background: rgba(255,255,255,0.02); border: 1px solid rgba(255,255,255,0.06); border-radius: 12px; }
+.card-hover { transition: all 0.3s cubic-bezier(0.4,0,0.2,1); }
+.card-hover:hover { transform: translateY(-3px); background: rgba(255,255,255,0.04); border-color: rgba(99,102,241,0.3); box-shadow: 0 20px 60px rgba(99,102,241,0.1); }
+
+.glow-indigo { box-shadow: 0 0 40px rgba(99,102,241,0.15); }
+.glow-cyan { box-shadow: 0 0 40px rgba(6,182,212,0.15); }
+
+.btn-primary { background: linear-gradient(135deg, #6366f1, #4f46e5); color: white; font-weight: 600; padding: 12px 28px; border-radius: 8px; display: inline-flex; align-items: center; gap: 8px; transition: all 0.3s ease; font-size: 14px; }
+.btn-primary:hover { transform: translateY(-2px); box-shadow: 0 12px 35px rgba(99,102,241,0.4); }
+.btn-secondary { border: 1px solid rgba(99,102,241,0.4); color: #a5b4fc; font-weight: 500; padding: 11px 27px; border-radius: 8px; display: inline-flex; align-items: center; gap: 8px; transition: all 0.3s ease; font-size: 14px; }
+.btn-secondary:hover { background: rgba(99,102,241,0.08); border-color: rgba(99,102,241,0.6); transform: translateY(-2px); }
+
+.section { padding: 96px 0; }
+.section-sm { padding: 64px 0; }
+.container { max-width: 1200px; margin: 0 auto; padding: 0 24px; }
+
+.tag { font-family: 'Space Mono', monospace; font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: #6366f1; margin-bottom: 14px; display: flex; align-items: center; gap: 8px; }
+.tag::before { content: ''; width: 20px; height: 1px; background: #6366f1; }
+
+.divider { width: 100%; height: 1px; background: linear-gradient(90deg, transparent, rgba(99,102,241,0.3), transparent); }
+
+/* Grid background */
+.grid-bg { background-image: linear-gradient(rgba(99,102,241,0.04) 1px, transparent 1px), linear-gradient(90deg, rgba(99,102,241,0.04) 1px, transparent 1px); background-size: 50px 50px; }
+
+/* Carousel */
+.carousel-track { display: flex; transition: transform 0.6s cubic-bezier(0.4,0,0.2,1); }
+.carousel-slide { min-width: 100%; }
+
+/* Floating animation */
+@keyframes floatY { 0%,100% { transform: translateY(0px); } 50% { transform: translateY(-8px); } }
+.float { animation: floatY 5s ease-in-out infinite; }
+
+/* Pulse dot */
+@keyframes pulseDot { 0%,100% { opacity:1; transform:scale(1); } 50% { opacity:0.4; transform:scale(0.8); } }
+.pulse-dot { animation: pulseDot 2s ease-in-out infinite; }
+
+/* Fade in up */
+@keyframes fadeUp { from { opacity:0; transform:translateY(20px); } to { opacity:1; transform:translateY(0); } }
+.fade-up { animation: fadeUp 0.7s ease forwards; }
+
+/* Number counter shimmer */
+.shimmer-text { background: linear-gradient(90deg, #6366f1 0%, #06b6d4 40%, #10b981 70%, #6366f1 100%); background-size: 200%; -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; animation: shimmer 4s linear infinite; }
+@keyframes shimmer { 0% { background-position: 0% } 100% { background-position: 200% } }
