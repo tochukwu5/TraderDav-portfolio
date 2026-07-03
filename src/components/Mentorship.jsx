@@ -3,14 +3,14 @@ const PLANS = [
     id: 'mentorship', label: 'Trading Mentorship', price: '$50', period: '3 Weeks',
     desc: 'Intensive one-on-one ICT market structure mentorship. Tailored to your chart, your timeframe, your weaknesses.',
     features: ['ICT Market Structure — Full Curriculum','Order Blocks, FVGs & Liquidity Zones','Kill Zone & NY Session Trading','Live Chart Walkthroughs — Any Market','Prop Firm Evaluation Strategy','Risk & Psychology Framework','Daily Accountability Sessions','Lifetime Contact After Program ♾️'],
-    cta: 'Apply Now', href: 'mailto:davtrader2@gmail.com?subject=Mentorship Application',
+    cta: 'Apply Now', href: 'mailto:david@buildfortraders.com?subject=Mentorship Application',
     accent: '#10b981', featured: false,
   },
   {
     id: 'build', label: 'Build For You', price: 'From $300', period: 'Per Project',
     desc: 'Custom financial tools, trading dashboards, fintech MVPs, and coaching websites. Clean code, fast delivery, you own everything.',
     features: ['Prop Firm Rule Dashboards','Trade Journal Web Apps','Signal & Bot Systems','Trading Coach Websites','Crypto Analytics Platforms','Fintech MVP Development','3–5 Day Delivery Average','Full Source Code Ownership'],
-    cta: 'Start Project', href: 'mailto:davtrader2@gmail.com?subject=Project Inquiry',
+    cta: 'Start Project', href: 'mailto:david@buildfortraders.com?subject=Project Inquiry',
     accent: '#6366f1', featured: true,
   },
   {
@@ -92,7 +92,7 @@ export default function Mentorship() {
               <p className="text-white/45 leading-relaxed mb-8">
                 I delivered a complete website for <span className="text-emerald font-medium">G2S Trades (Gabe)</span> at <a href="https://g2strades.com" target="_blank" rel="noreferrer" className="text-emerald underline decoration-emerald/30">g2strades.com</a> — pricing, booking, testimonials, mobile-perfect. I can do the same for your brand in 5 days.
               </p>
-              <a href="mailto:davtrader2@gmail.com?subject=Trading Coach Website" className="btn-primary text-sm">
+              <a href="mailto:david@buildfortraders.com?subject=Trading Coach Website" className="btn-primary text-sm">
                 Get Your Website →
               </a>
             </div>

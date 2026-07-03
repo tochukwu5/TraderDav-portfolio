@@ -31,7 +31,7 @@ export default function Contact() {
     })
     .catch(() => {
       setLoading(false);
-      setError('Something went wrong. Please email davtrader2@gmail.com directly.');
+      setError('Something went wrong. Please email david@buildfortraders.com directly.');
     });
   };
 
@@ -52,7 +52,7 @@ export default function Contact() {
 
             <div className="space-y-4 mb-10">
               {[
-                { icon: '✉', label: 'Email', val: 'davtrader2@gmail.com', href: 'mailto:davtrader2@gmail.com', color: '#6366f1' },
+                { icon: '✉', label: 'Email', val: 'david@buildfortraders.com', href: 'mailto:david@buildfortraders.com', color: '#6366f1' },
                 { icon: '🌐', label: 'Linktree', val: 'linktr.ee/Tochi_mmxm', href: 'https://linktr.ee/Tochi_mmxm', color: '#06b6d4' },
               ].map(c => (
                 <a key={c.label} href={c.href} target="_blank" rel="noreferrer"
