@@ -1,5 +1,3 @@
-import { Link } from 'react-scroll';
-
 const PLANS = [
   {
     id: 'mentorship', label: 'Trading Mentorship', price: '$50', period: '3 Weeks',
