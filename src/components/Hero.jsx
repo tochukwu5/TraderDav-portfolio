@@ -57,12 +57,12 @@ export default function Hero() {
   <svg width="10" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
 </Link>
             <a href="https://calendly.com/davtrader2/30min" target="_blank" rel="noreferrer" className="btn-secondary">
-              Book Free Call
+              Book a Call
             </a>
           </div>
 
           {/* Stats row */}
-          <div className="flex flex-wrap gap-4 pt-8 border-t border-white/5">
+          <div className="grid grid-cols-2 lg:flex gap-4 pt-8 border-t border-white/5">
             {STATS.map(s => (
               <div key={s.label}>
                 <div className="font-display text-2xl font-bold shimmer-text">{s.val}</div>
