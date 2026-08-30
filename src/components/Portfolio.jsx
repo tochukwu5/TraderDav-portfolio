@@ -2,9 +2,9 @@ import { useState, useEffect, useRef, useCallback } from 'react';
 
 const PROJECTS = [
   {
-    title: 'SendArc', category: 'Fintech Platform', status: 'LIVE',
+    title: 'Paragonfinance', category: 'Fintech Platform', status: 'LIVE',
     desc: 'Cross-border USDC remittance platform on Arc Network (Circle). Seamless crypto-powered payments with a clean, production-grade interface.',
-    img: '/images/portfolio/sendarc.png', link: 'https://sendarc.xyz',
+    img: '/images/portfolio/sendarc.png', link: 'https://paragonfinance.xyz',
     stack: ['React','Node.js','MongoDB','Circle CCTP','Web3'],
     color: '#6366f1',
   },
